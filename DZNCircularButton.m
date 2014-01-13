@@ -1,14 +1,14 @@
 //
 //  DZCircularButton.m
-//  EpicList
+//  DZNControls
 //
 //  Created by Ignacio on 9/27/13.
 //  Copyright (c) 2013 Epic Peaks GmbH. All rights reserved.
 //
 
-#import "DZCircularButton.h"
+#import "DZNCircularButton.h"
 
-@implementation DZCircularButton
+@implementation DZNCircularButton
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -21,11 +21,11 @@
     return self;
 }
 
-- (DZCircularImageView *)imageView
+- (DZNCircularImageView *)imageView
 {
-    if ([self valueForKey:@"_imageView"] == nil || ![[self valueForKey:@"_imageView"] isKindOfClass:[DZCircularImageView class]])
+    if ([self valueForKey:@"_imageView"] == nil || ![[self valueForKey:@"_imageView"] isKindOfClass:[DZNCircularImageView class]])
     {
-        DZCircularImageView *newImageView = [[DZCircularImageView alloc] init];
+        DZNCircularImageView *newImageView = [[DZNCircularImageView alloc] init];
         //        newImageView.animatedTransition = YES;
         
         [[self valueForKey:@"_imageView"] removeFromSuperview];

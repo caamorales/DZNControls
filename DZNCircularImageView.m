@@ -1,19 +1,19 @@
 //
 //  DZRoundImageView.m
-//  Connectae
+//  DZNControls
 //
 //  Created by Ignacio on 8/12/13.
-//  Copyright (c) 2013 DZEN. All rights reserved.
+//  Copyright (c) 2013 DZN Labs. All rights reserved.
 //
 
-#import "DZCircularImageView.h"
+#import "DZNCircularImageView.h"
 
 #define density [UIScreen mainScreen].scale
 
-@interface DZCircularImageView ()
+@interface DZNCircularImageView ()
 @end
 
-@implementation DZCircularImageView
+@implementation DZNCircularImageView
 
 - (id)initWithFrame:(CGRect)frame
 {

@@ -1,6 +1,6 @@
 //
 //  DZFadeImageView.h
-//  EpicList
+//  DZNControls
 //
 //  Created by Ignacio on 9/16/13.
 //  Copyright (c) 2013 Epic Peaks GmbH. All rights reserved.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DZCategories.h"
 
-@interface DZFadeImageView : UIImageView
+@interface DZNFadeImageView : UIImageView
 
 /**  */
 @property (nonatomic) CGFloat transitionDuration;

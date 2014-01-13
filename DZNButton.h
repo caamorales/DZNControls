@@ -1,16 +1,16 @@
 //
 //  DZButton.h
-//  Connectae
+//  DZNControls
 //
 //  Created by Ignacio on 8/12/13.
-//  Copyright (c) 2013 DZEN. All rights reserved.
+//  Copyright (c) 2013 DZN Labs. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "DZCategories.h"
 
 /**  */
-@interface DZButton : UIButton
+@interface DZNButton : UIButton
 
 /**  */
 @property (nonatomic) CGSize sensibleZone;

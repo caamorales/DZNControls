@@ -1,28 +1,29 @@
 //
 //  DZFadeImageView.m
-//  EpicList
+//  DZNControls
 //
 //  Created by Ignacio on 9/16/13.
 //  Copyright (c) 2013 Epic Peaks GmbH. All rights reserved.
 //
 
-#import "DZFadeImageView.h"
+#import "DZNFadeImageView.h"
 
 #define density [UIScreen mainScreen].scale
 
-@interface DZFadeImageView ()
+@interface DZNFadeImageView ()
 @property (nonatomic, strong) UIImageView *inView;
 @property (nonatomic, strong) UIImageView *outView;
 @property (nonatomic) BOOL transitioning;
 @end
 
-@implementation DZFadeImageView
+@implementation DZNFadeImageView
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        self.transitionDuration = 0;
+        self.blurRadius = 0;
     }
     return self;
 }
