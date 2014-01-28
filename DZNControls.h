@@ -9,3 +9,4 @@
 #import "DZNButton.h"
 #import "DZNFadeImageView.h"
 #import "DZNCircularImageView.h"
+#import "DZNCircularButton.h"

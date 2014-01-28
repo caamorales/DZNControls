@@ -10,7 +10,7 @@
 #import "DZCategories.h"
 
 /**  */
-@interface DZNCircularImageView : DZNFadeImageView
+@interface DZNCircularImageView : UIImageView
 
 /**  */
 @property (nonatomic, strong) UIColor *borderColor;

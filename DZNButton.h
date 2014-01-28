@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DZCategories.h"
 
-/**  */
+/** A button with extended behaviour. */
 @interface DZNButton : UIButton
 
-/**  */
+/** The size of the sensible area it should have. This is a way for increasing the touch input area without having to create a bigger button. */
 @property (nonatomic) CGSize sensibleZone;
 
 @end

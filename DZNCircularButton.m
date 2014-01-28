@@ -14,8 +14,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
-        
         
     }
     return self;
@@ -25,12 +23,9 @@
 {
     if ([self valueForKey:@"_imageView"] == nil || ![[self valueForKey:@"_imageView"] isKindOfClass:[DZNCircularImageView class]])
     {
-        DZNCircularImageView *newImageView = [[DZNCircularImageView alloc] init];
-        //        newImageView.animatedTransition = YES;
-        
+        DZNCircularImageView *_view = [[DZNCircularImageView alloc] init];
         [[self valueForKey:@"_imageView"] removeFromSuperview];
-//        [self.contentView addSubview:newImageView];
-        [self setValue:newImageView forKey:@"_imageView"];
+        [self setValue:_view forKey:@"_imageView"];
     }
     return [self valueForKey:@"_imageView"];
 }
