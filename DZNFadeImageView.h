@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DZCategories.h"
+#import "DZNCategories.h"
 
 @interface DZNFadeImageView : UIImageView
 
-/**  */
 @property (nonatomic) CGFloat transitionDuration;
-/**  */
 @property (nonatomic) CGFloat blurRadius;
 
 @end

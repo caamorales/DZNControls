@@ -7,18 +7,13 @@
 //
 
 #import "DZNFadeImageView.h"
-#import "DZCategories.h"
+#import "DZNCategories.h"
 
-/**  */
 @interface DZNCircularImageView : UIImageView
 
-/**  */
 @property (nonatomic, strong) UIColor *borderColor;
-/**  */
 @property (nonatomic) CGFloat borderWidth;
-/**  */
 @property (nonatomic) CGFloat uniqueSize;
-/**  */
 @property (nonatomic) BOOL showProgress;
 
 @end
